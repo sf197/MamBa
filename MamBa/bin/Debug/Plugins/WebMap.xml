@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<author>wh4am1</author>
+	<cms title="dedecms">
+		<urlpath><![CDATA[/plus/fs.php]]></urlpath>
+		<urlpath><![CDATA[/plus/feedback_js.php]]></urlpath>
+	</cms>
+	<cms title="discuz">
+		<urlpath><![CDATA[/static/js/admincp.js]]></urlpath>
+		<urlpath><![CDATA[/robots.txt|Discuz]]></urlpath>
+		<urlpath><![CDATA[/forum.php|<meta name=\"generator\" content=\"Discuz!|<script src=\".*?logging\\.js]]></urlpath>
+	</cms>
+	<cms title="phpwind">
+		<urlpath><![CDATA[/index.php|<meta name=\"generator\" content=\"(phpwind|PHPWind)|Powered by <a href="http://www.phpwind.net/" target="_blank" CMS:rel="nofollow">phpwind]]></urlpath>
+		<urlpath><![CDATA[/robots.txt|phpwind]]></urlpath>
+	</cms>
+	<cms title="phpmywind">
+		<urlpath><![CDATA[/robots.txt|PHPMyWind]]></urlpath>
+		<urlpath><![CDATA[/shoppingcart.php]]></urlpath>
+	</cms>
+	<cms title="wordpress">
+		<urlpath><![CDATA[/robots.txt|/wp-\*/]]></urlpath>
+		<urlpath><![CDATA[/license.txt|WordPress]]></urlpath>
+		<urlpath><![CDATA[/wp-includes/css/buttons.css]]></urlpath>
+	</cms>
+	<cms title="z-blog">
+		<urlpath><![CDATA[/index.php|<link rel=\"stylesheet\" rev=\"stylesheet\" href=\".*zb_users]]></urlpath>
+	</cms>
+	<cms title="phpcms">
+		<urlpath><![CDATA[/index.php|<link href=\"templates/default/skins/default/phpcms.css\"|Powered by (PHPCMS|Phpcms)]]></urlpath>
+		<urlpath><![CDATA[/robots.txt|phpcms]]></urlpath>
+		<urlpath><![CDATA[/index.php?m=search|Powered by <strong><a href="http://www.phpcms.cn" target="_blank">PHPCMS]]></urlpath>
+	</cms>
+	<cms title="qibosoft">
+		<urlpath><![CDATA[/|Powered by <a href="http://www.qibosoft.com" target="_blank">qibosoft]]></urlpath>
+		<urlpath><![CDATA[/robots.txt|qibocms]]></urlpath>
+	</cms>
+	<cms title="74cms">
+		<urlpath><![CDATA[/robots.txt|/xhtml/plus/shops_buyaction.php]]></urlpath>
+	</cms>
+	<cms title="ECShop">
+		<urlpath><![CDATA[/|Powered by ECShop]]></urlpath>
+	</cms>
+	<cms title="weblogic">
+		<urlpath><![CDATA[/console/css/login.css]]></urlpath>
+		<urlpath><![CDATA[/|<META NAME=\"GENERATOR\" CONTENT=\"WebLogic Server\">]]></urlpath>
+	</cms>
+</root>
